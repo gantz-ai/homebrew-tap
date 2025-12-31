@@ -7,22 +7,22 @@ class Gantz < Formula
   on_macos do
     on_arm do
       url "https://github.com/gantz-ai/gantz-cli/releases/download/v#{version}/gantz-darwin-arm64"
-      sha256 "bbe21efa7eb29b962a7524bae0164c816abe8536d42e14ab50b458b35100f2eb"
+      sha256 "315a96a6b76bc2f9c39e078459a74df62680fcb80aacc109649cf83e40b02500"
     end
     on_intel do
       url "https://github.com/gantz-ai/gantz-cli/releases/download/v#{version}/gantz-darwin-amd64"
-      sha256 "221370eab1940f2aec3d6ef41670d06d90316e478b6a9b36cf37ff67e7549551"
+      sha256 "6399e56ec12670760873c091f4a4a93586e3a70a40cded1c02e7f4bcec9e7092"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/gantz-ai/gantz-cli/releases/download/v#{version}/gantz-linux-arm64"
-      sha256 "9b8800dcd3de147a77ccea1be8e6ba7e46029e3f09a6ef458f1e73a9c13ca5cb"
+      sha256 "5d767a5c5779d3346acb1a574233df3826bb3e1fa889f771338c689d1de5e5f5"
     end
     on_intel do
       url "https://github.com/gantz-ai/gantz-cli/releases/download/v#{version}/gantz-linux-amd64"
-      sha256 "11e64670047e718534654c8843d1d05c0766ee5e9956be62c519cd8dedb06daf"
+      sha256 "3fedcef59953752bd42a3455d30a8f4985b3e05d350ab7a19b982f1d64977479"
     end
   end
 
