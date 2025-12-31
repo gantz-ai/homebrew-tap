@@ -7,27 +7,26 @@ class Gantz < Formula
   on_macos do
     on_arm do
       url "https://github.com/gantz-ai/gantz-cli/releases/download/v#{version}/gantz-darwin-arm64"
-      sha256 "PLACEHOLDER_SHA256_DARWIN_ARM64"
+      sha256 "bbe21efa7eb29b962a7524bae0164c816abe8536d42e14ab50b458b35100f2eb"
     end
     on_intel do
       url "https://github.com/gantz-ai/gantz-cli/releases/download/v#{version}/gantz-darwin-amd64"
-      sha256 "PLACEHOLDER_SHA256_DARWIN_AMD64"
+      sha256 "221370eab1940f2aec3d6ef41670d06d90316e478b6a9b36cf37ff67e7549551"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/gantz-ai/gantz-cli/releases/download/v#{version}/gantz-linux-arm64"
-      sha256 "PLACEHOLDER_SHA256_LINUX_ARM64"
+      sha256 "9b8800dcd3de147a77ccea1be8e6ba7e46029e3f09a6ef458f1e73a9c13ca5cb"
     end
     on_intel do
       url "https://github.com/gantz-ai/gantz-cli/releases/download/v#{version}/gantz-linux-amd64"
-      sha256 "PLACEHOLDER_SHA256_LINUX_AMD64"
+      sha256 "11e64670047e718534654c8843d1d05c0766ee5e9956be62c519cd8dedb06daf"
     end
   end
 
   def install
-    binary_name = "gantz-#{OS.kernel_name.downcase}-#{Hardware::CPU.arch == :arm64 ? "arm64" : "amd64"}"
     bin.install Dir["*"].first => "gantz"
   end
 
