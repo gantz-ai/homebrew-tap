@@ -1,28 +1,28 @@
 class Gantz < Formula
   desc "Gantz Run - Local MCP tunnel for AI agents"
   homepage "https://gantz.run"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/gantz-ai/gantz-cli/releases/download/v0.3.0/gantz-darwin-arm64"
-      sha256 "c967d155501af9f578772ceac3096505dd09f3c26494353f974fa42512435684"
+      url "https://github.com/gantz-ai/gantz-cli/releases/download/v0.3.1/gantz-darwin-arm64"
+      sha256 "8c3b486b297d485684b82a5e5e846241fbb367335847a7b8df899c06b1e01eef"
     end
     on_intel do
-      url "https://github.com/gantz-ai/gantz-cli/releases/download/v0.3.0/gantz-darwin-amd64"
-      sha256 "f907b0234d8d80d9735cbfe6782fbc8436311cfae475a422f761caa2d2378a32"
+      url "https://github.com/gantz-ai/gantz-cli/releases/download/v0.3.1/gantz-darwin-amd64"
+      sha256 "f8e1849096647374a76f62b06ebbe371c9de92a101f945075326f4db9a3b6126"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/gantz-ai/gantz-cli/releases/download/v0.3.0/gantz-linux-arm64"
-      sha256 "fd167e236b15fb3d21af27a4e40a640ab0682b16cd0bc245b0502ca315f2867f"
+      url "https://github.com/gantz-ai/gantz-cli/releases/download/v0.3.1/gantz-linux-arm64"
+      sha256 "550a7f62587adac37531b6f9f08f6682b117ee49a967850ee981145e9d27d3e1"
     end
     on_intel do
-      url "https://github.com/gantz-ai/gantz-cli/releases/download/v0.3.0/gantz-linux-amd64"
-      sha256 "ca1114ae5236a1abfdceafd1a5e2047094d1b25449a585209743fd3cdbac182b"
+      url "https://github.com/gantz-ai/gantz-cli/releases/download/v0.3.1/gantz-linux-amd64"
+      sha256 "3e642f601b272e93ef2e9e0071cc8e52f7206980a57715113f5bcde17fc23f83"
     end
   end
 
